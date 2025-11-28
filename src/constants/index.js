@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  krushisetu,
+  bloodshare,
+  wanderlust,
 } from "../assets";
 
 export const navLinks = [
@@ -42,11 +45,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "FullStack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "FrontEnd Developer",
     icon: mobile,
   },
   {
@@ -54,7 +57,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Cloud & Microservices Enthusiast",
     icon: creator,
   },
 ];
@@ -96,6 +99,7 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
+
   {
     name: "Three JS",
     icon: threejs,
@@ -116,57 +120,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "FrontEnd Developer",
+    company_name: "MySoftWay",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2023 - Jully 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built and styled responsive web interfaces using HTML, CSS, and Bootstrap while following modern UI/UX standards.",
+      "Developed dynamic web functionality using PHP and AngularJS under the guidance of senior developers.",
+      "Worked with MySQL for database operations including data handling, queries, and CRUD functionality.",
+      "Received hands-on exposure to IT consultancy practices and collaborated in understanding real-world client requirements..",
     ],
   },
+  {
+    title: "Cyber Security Virtual Intern",
+    company_name: "Cisco",
+    icon: shopify,
+    iconBg: "#E6DEDD",
+    date: "June 2025 - Aug 2025",
+    points: [
+      "Applied core cybersecurity principles by identifying system vulnerabilities, analyzing threats, and practicing secure configuration techniques.",
+      "Conducted hands-on ethical hacking labs and performed vulnerability assessments to evaluate system weaknesses and improve security posture.",
+      "Configured secure network settings and practiced defense techniques.",
+      "Improved understanding of network security through simulations and practical exercises.",
+    ],
+  },
+  
 ];
 
 const testimonials = [
@@ -198,67 +177,74 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "KrushiSetu",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "AI-powered web application that helps farmers access marketplaces, government schemes, real-time weather updates, and personalized crop guidance. Includes an intelligent chatbot, real-time farmer communication, and multilingual PWA features for improved rural connectivity and agricultural support.",
+    tags: [
+  {
+    name: "expressjs",
+    color: "blue-text-gradient",
+  },
+  {
+    name: "nodejs",
+    color: "green-text-gradient",
+  },
+  {
+    name: "firebase",
+    color: "pink-text-gradient",
+  },
+
+  {
+    name: "pwa",
+    color: "orange-text-gradient",
+  },
+
+
+    ],
+    image: krushisetu,
+    source_code_link: "https://github.com/Sudarshan2905/KrushiSetu",
+  },
+  {
+    name: "BloodShare",
+    description:
+      "A secure blockchain-based platform that connects blood donors and recipients in real time. It ensures transparency through smart contracts, predicts blood demand using AI models, and provides a scalable full-stack solution with automated donor verification and efficient emergency response workflows for improved healthcare reliability.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "solidity",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: bloodshare,
+    source_code_link: "https://github.com/Sudarshan2905/BloodShare",
   },
   {
-    name: "Job IT",
+    name: "Wanderlust",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A full-stack travel listing platform that lets users explore destinations, create listings, and share reviews with ease. It provides secure role-based authentication, optimized media uploads via Cloudinary, and interactive Mapbox mapping while delivering a smooth, responsive user experience across devices..",
     tags: [
       {
-        name: "react",
+        name: "cloudinary",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mapbox",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "ejs",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: wanderlust,
+    source_code_link: "https://github.com/sudarshan2905/wanderlust",
   },
 ];
 

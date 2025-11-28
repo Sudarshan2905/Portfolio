@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import sql from "./tech/sql.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -29,6 +30,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import krushisetu from "./krushisetu.png";
+import bloodshare from "./bloodshare.png";
+import wanderlust from "./wanderlust.png";
+
+
 
 export {
   logo,
@@ -40,6 +46,7 @@ export {
   menu,
   close,
   css,
+  sql,
   docker,
   figma,
   git,
@@ -59,4 +66,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  krushisetu,
+  bloodshare,
+  wanderlust,
 };
